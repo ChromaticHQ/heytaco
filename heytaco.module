@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Provides integration with Hey Taco.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function heytaco_theme($existing, $type, $theme, $path) {
+  return array(
+    'heytaco_block' => array(
+      'variables' => array('results' => NULL, 'partner_asterisk_blurb' => NULL),
+    ),
+  );
+}

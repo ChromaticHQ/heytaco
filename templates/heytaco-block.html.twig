@@ -1,0 +1,9 @@
+<h2>HeyTaco! Leaderboard</h2>
+<ol>
+  {% for result in results %}
+    {# <li>{{ result.user_pic | raw }} {{ result.name }} <strong>{{ result.score }} {{ result.asterisk }}</strong></li> #}
+    <li>{{ result.name }} <strong>{{ result.score }} {{ result.asterisk }}</strong></li>
+  {% endfor %}
+</ol>
+
+<small>{{ partner_asterisk_blurb }}</small>

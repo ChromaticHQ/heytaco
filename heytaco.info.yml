@@ -1,0 +1,8 @@
+name: Hey Taco Module
+description: Create a block with cached Hey Taco results
+package: Custom
+
+type: module
+core: 8.x
+dependencies:
+  - block
